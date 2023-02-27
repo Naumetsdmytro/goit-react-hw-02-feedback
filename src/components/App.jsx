@@ -51,7 +51,8 @@ export class App extends Component {
             options={Object.keys(this.state)}
             onLeaveFeedback={this.onLeaveFeedback}
           />
-
+        </Section>
+        <Section title="Statictics">
           {this.countTotalFeedback() >= 1 ? (
             <Statistics
               good={good}
